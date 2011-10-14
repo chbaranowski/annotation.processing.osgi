@@ -1,0 +1,6 @@
+-sub: *.bnd
+-buildpath: osgi.core,\
+	osgi.cmpn
+-runfw: org.eclipse.osgi;version=3.6.1
+-runproperties: osgi.console=true
+-classpath: libs/javassist.jar
